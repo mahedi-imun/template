@@ -1,0 +1,93 @@
+@media screen and (max-width:980px) {
+    header {
+        width:100%;
+    }
+
+    header .menu {
+        width:70%;
+      
+    }
+    @media screen and (max-width:768px) {
+        h1 {
+            max-width: 100px;
+            text-align: center;
+        
+        
+        }
+        header .menu {
+            width: 80%;
+        }
+        .banner a {
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+        
+        .left-area h2 {
+            width: 70%;
+            font-size: 35px;
+        }
+        .right-area .text-1,
+        .text-2 {
+            width: 100%;
+        }
+        .right-area .text-1 p,
+        .right-area  .text-2 p {
+            line-height:1.5;
+            word-spacing: 10px;
+        }
+    }
+    @media screen and (max-width:480px) {
+        h1{
+            max-width:100px;
+            float: right;
+         
+            
+        }
+        header .menu {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            width: 150px;
+            
+    
+        }
+        .menu ul li a{
+            color:gold;
+            
+        }
+        .menu ul li a:hover{
+            color: #fff;
+        }
+        .banner {
+            padding: 20px;
+        }
+        .banner p {
+            width: 100%;
+            font-size: 20px;
+                
+        }
+        .text-container {
+            width: 100%;
+        }
+        .left-area { 
+            width:40%;
+        }
+        .left-area h2 {
+            width:95%;
+            font-size:24px;
+        }
+        .left-area p {
+            width:95%;
+            font-size:18px;
+        }
+        .right-area {
+            width:60%; 
+        }
+        .right-area .text-1,
+                    .text-2 {
+             width:95%;
+            font-size: 15px;
+                        
+        }
+    }
+    
